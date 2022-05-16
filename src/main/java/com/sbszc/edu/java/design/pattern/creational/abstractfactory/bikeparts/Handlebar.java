@@ -1,6 +1,6 @@
 package com.sbszc.edu.java.design.pattern.creational.abstractfactory.bikeparts;
 
-public abstract class Handlebar {
+public abstract class Handlebar extends BikePart {
 
     public abstract void getDescription();
 }
